@@ -10,7 +10,7 @@ function checkout($fiyat)
     $productid = $_GET['pi'];
     $secretKey   = SECRET;
     $vendorToken = TOKEN;
-    $serverName = "server.cfyt.xyz";
+    $serverName = "php-demo.pay.redoya.net";
     $issuedAt   = new DateTimeImmutable();
     $expire     = $issuedAt->modify('+999 minutes')->getTimestamp(); // Siparişin geçerlilik süresi
     $data = [
