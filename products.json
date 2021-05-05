@@ -1,0 +1,17 @@
+{
+    "0": {
+        "name": "elma",
+        "price": 10,
+        "id": 0
+    },
+    "1": {
+        "name": "armut",
+        "price": 15.7,
+        "id": 1
+    },
+    "2": {
+        "name": "altın armut",
+        "price": 200,
+        "id": 2
+    }
+}
